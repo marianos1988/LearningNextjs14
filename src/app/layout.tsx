@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from "next/link"; //Este redirecciona a los lugares que queremos ir
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +29,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header>Cabecera de a App</header>
+        <header>
+          <h1>Cabecera de a App</h1>
+          <nav>
+            <Link href="/">Home</Link>
+            <Link href="/acerca">Acerca</Link>
+            <Link href="/contacto">Contacto</Link>
+            <Link href="/productos">Productos</Link>
+          </nav>
+        </header>
         <main>
           {children}
         </main>

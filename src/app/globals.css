@@ -36,3 +36,8 @@ body {
   font-size: 33px;
   color: navy;
 }
+
+body nav a {
+ margin: 5px;
+ font-size: 13px;
+}
