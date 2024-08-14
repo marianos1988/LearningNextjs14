@@ -1,5 +1,3 @@
-// "use client";
-// import { useRouter } from "next/navigation"; // Componente para 
 
 import Button from "@/app/(components)/button"
 
@@ -9,12 +7,6 @@ export const metadata = {
 }
 
 export default function Contacto() {
-
-  // const router = useRouter();
-  // //Est afuncion genera una ruta
-  // const handleOnClick = () => {
-  //   router.push("/")
-  // }
 
   return(
     <>

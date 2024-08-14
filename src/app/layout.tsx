@@ -32,6 +32,9 @@ export default function RootLayout({
         <header>
           <h1>Cabecera de a App</h1>
           <nav>
+            <Link href="/login">Login</Link>
+            <Link href="/registrar">Registrar</Link>
+            <Link href="/password">Recuperar Password</Link>
             <Link href="/">Home</Link>
             <Link href="/acerca">Acerca</Link>
             <Link href="/contacto">Contacto</Link>
