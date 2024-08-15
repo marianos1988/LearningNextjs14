@@ -16,7 +16,7 @@ export default function DashboardLayout({
       </article>
       <section>
         <aside>{analytics}</aside>
-        <aside>{chat}</aside>
+        <aside>{chat}</aside>en 
         <aside>{video}</aside>
       </section>
     </>
